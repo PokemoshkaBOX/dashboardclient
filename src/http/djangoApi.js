@@ -1,4 +1,4 @@
-import {$djangoHost} from "./index";
+import {$djangoHost} from "./indexApi";
 
 export const djangoConnect = async () =>{
     const {data} = await $djangoHost.get('api/django',)
