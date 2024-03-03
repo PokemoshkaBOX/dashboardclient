@@ -6,7 +6,6 @@ import { Context } from "../../index";
 import { login } from "../../http/userApi";
 import { observer } from "mobx-react-lite";
 import "./Style.css"
-import Spline from '@splinetool/react-spline';
 const HomePage = observer(() => {
     const { user } = useContext(Context);
     const history = useNavigate();
@@ -73,7 +72,6 @@ const HomePage = observer(() => {
             className="d-flex"
                    style={{justifyContent: "center", backgroundColor: "rgb(45, 46, 50)", margin: 0, bot: 0, top:0, right: 0, left: 0, padding: 0}}
         >
-                <Spline scene="https://draft.spline.design/I3rFMDvIZ65XWy8S/scene.splinecode" style={{ marginTop: 94, position: 'relative', display: "block", width: "auto", height: "100%"}} />
                 <Card style={{width: 600, backgroundColor: "rgba(0,0,0,0.3)", position: 'absolute', marginTop: window.innerHeight/2-140}} className="p-5">
                     {user.isAuth ? <h2 className="m-auto" style={{textAlign: "center", color: "white"}}>Вы авторизованы как {email}</h2>
                         : <h2 className="m-auto" style={{color: "white"}}>Авторизация</h2>}
