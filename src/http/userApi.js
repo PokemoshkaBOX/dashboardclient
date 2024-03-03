@@ -1,4 +1,4 @@
-import {$authHost, $host} from "./index";
+import {$authHost, $host} from "./indexApi";
 import {jwtDecode} from "jwt-decode";
 export const login = async (email, password) =>{
     const {data} = await $host.post('api/user/login', {email, password})
