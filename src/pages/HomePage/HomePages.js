@@ -86,14 +86,14 @@ const HomePage = observer(() => {
                         :
                         <Form className="d-flex flex-column">
                             <Form.Control
-                                style={{color: "white"}}
+                                style={{color: "black"}}
                                 className="mt-3"
                                 placeholder="Введите email"
                                 value={email}
                                 onChange={handleUsernameChange}
                             />
                             <Form.Control
-                                style={{color: "white"}}
+                                style={{color: "black"}}
                                 className="mt-3"
                                 placeholder="Введите пароль"
                                 value={password}
