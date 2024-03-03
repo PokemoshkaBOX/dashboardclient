@@ -1,4 +1,4 @@
-import HomePage from "./pages/HomePages/HomePage";
+import HomePage from "./pages/HomePage/HomePages";
 import Monitor from "./pages/Monitor/Monitor";
 import Faculty from "./pages/Faculty/Faculty";
 import Year from "./pages/Year/Year";
